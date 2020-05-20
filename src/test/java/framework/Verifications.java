@@ -1,7 +1,5 @@
 package framework;
 
-import java.math.BigDecimal;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -19,7 +17,7 @@ public class Verifications {
 		
 	}
 	
-	public boolean verify_value_pattern_in_textBox(WebElement textBox, String valuePattern) {
+	public boolean verify_textBox_value_pattern(WebElement textBox, String valuePattern) {
 		
 		String strTextBoxValue = textBox.getAttribute("value");
 		

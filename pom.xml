@@ -4,17 +4,21 @@
   <artifactId>GenenalAutomationFramework</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>GenenalAutomationFramework</name>
+  
+  <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+  
   <build>    
-    <plugins>
+   <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.8.1</version>
         <configuration>
-          <verbose>true</verbose>
-          <fork>true</fork>
-          <executable><!-- path-to-javac --></executable>
-          <compilerVersion>1.8</compilerVersion>
+          <source>1.8</source>
+          <target>1.8</target>
         </configuration>
       </plugin>
     </plugins>
